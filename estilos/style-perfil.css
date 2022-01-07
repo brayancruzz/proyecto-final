@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Desarrollo General */
+
+.padre{ /* Grupo Contenedor de todo */
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 0px;
+    width: 100%;
+    margin: 0px auto;
+    gap: 30px;
+}
+
+/* LINK */
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+
+.header{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.LogoContenedor{
+    padding-left: 15px;
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+#logo{
+    width: 100%;
+    height: 100%;
+}
+.OpcionesContenedor{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+.Menu ul{
+    display: flex;
+}
+
+.Menu ul li{
+    padding: 10px;
+}
+
+.Menu ul li a:hover{
+    color: green;
+}
+
+.Menu ul li a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.Menu ul li a:hover{
+    padding: 10px;
+    color: yellow;
+}
+
+ul{
+    list-style: none;
+}
+
+/* BODY */
+
+ ::-webkit-scrollbar{
+    width: 6px;
+    height: 6px;
+    }
+    ::-webkit-scrollbar-thumb{
+    background: orange;
+    border-radius: 30px;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+    background: orangered;
+    }
+    ::-webkit-scrollbar-track{
+    background: gray;
+    border-radius: 0px;
+    box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+    }
+
+.footer{
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: brown;
+}
+
+/* CONTAINER */
+
+.container-general{
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
